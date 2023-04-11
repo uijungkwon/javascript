@@ -23,6 +23,7 @@ console.clear();
 {
     const array = [1,2,3,4,5];
     const result = array.slice(2,5);//splice(start,count)
+    //result = array.splice(0,2);
     console.log(result);//index 2~4 
     console.log(array);
 }
@@ -37,7 +38,7 @@ class Student{
 }
 //array
 const students =[
-    new Student('A',29,true,45),
+    new Student('A',29,true,45), //array 원소가 object
     new Student('B',28,false,80),
     new Student('C',30,true,90),
     new Student('D',40,false,66),

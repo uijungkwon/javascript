@@ -1,3 +1,5 @@
+
+'use strict';
 //1.Variable, rw(read/"write")
 //let (added in ES6)
 {
@@ -10,11 +12,15 @@ console.log(name);
 // has no block scope
 {age = 4;
 var age;}
+
+
 //3.constant, r(read only)
 //use const whenever possible
 //only use let if variable needs to change
 const daysInWeek = 7;
 const maxNumber = 5;// integer
+
+
 //Note!
 //Immutable data types: premitive types, frozen objects
 //Mutable data types: all objects by default are mutable in JS
@@ -23,6 +29,7 @@ const maxNumber = 5;// integer
 // -thread safety
 // -reduce human mistakes
 
+//4. Variable types
 // primitive=>single item: number, string, boolean, null,
 // object=> box container
 // function, first-class function

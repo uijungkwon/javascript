@@ -43,6 +43,14 @@ console.log(stringFive == numberFive);
 // === strict equality, no type conversion
 console.log(stringFive === numberFive)
 
+//object equality
+const uijung1 = {name:'uijung'};
+const uijung2 = {name:'uijung'};
+const uijung3 = uijung1;
+console.log(uijung1 == uijung2);//F
+console.log(uijung1 === uijung2);//F
+console.log(uijung1 == uijung3);//T
+
 //equality - puzzler
 console.log(0 == false); //true
 console.log(0 === false);//false, no boolean type
